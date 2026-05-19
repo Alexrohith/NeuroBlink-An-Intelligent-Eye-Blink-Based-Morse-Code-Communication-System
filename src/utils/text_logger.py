@@ -11,6 +11,9 @@ class TextLogger:
         with open(self.file_path, "a", encoding="utf-8") as f:
             f.write(f"\n--- Session {datetime.now()} ---\n")
 
+    def alex(self):
+        print("Hello")
+        
     def log_word(self, word):
         if not word:
             return
